@@ -42,6 +42,12 @@ body {
     /* Adicionado para garantir que o corpo não tenha preenchimento */
 }
 
+section {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 .Container {
     margin: 0 auto;
     padding: 50px 15px 50px 15px;
@@ -52,19 +58,44 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
-.Card img {
-    border-radius: 25px 25px 0px 0px;
+/* Estilos para o Card */
+.Card {
+margin-top: 30px;
+width: 338px;
+height:530px;
+background-color: #e8e8e8;
+border: 2px solid var(--cinzaTexto);
+border-radius: 29px;
+text-align:center;
+margin-left: 19px;
 }
 
-.Card h3 {
-    margin: 15px 30px 0px 30px;
+.Card img {
+ border-radius: 25px 25px 0px 0px;
+ width: 330px;
+ height: 320px;
+ margin-left: -1.9vh;
+ margin-top: -7vh;
 }
 
 .Card p {
     padding: 10px 30px 50px 15px;
-    text-align: left;
+    text-align:center;
     color: var(--cinzaLayout);
+}
+/* Estilos para o botão no Card */
+.Card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 19px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Card button:hover {
+    background-color: #6f6f6f;
 }
 
 .Button {
@@ -210,6 +241,13 @@ footer {
     .Container {
         max-width: 540px;
     }
+    .Card img {
+        border-radius: 25px 25px 0px 0px;
+        width: 330px;
+        height: 320px;
+        margin-left: -3.5vh;
+        margin-top: -13vh;
+       }
 
     /* Cabeçalho */
     header {
@@ -229,7 +267,7 @@ footer {
         background: rgba(0, 0, 0, 0.7);
         width: 100%;
         height: 138px;
-        margin-bottom: -280px;
+        margin-bottom: -260px;
     }
 
     /* Banner */
