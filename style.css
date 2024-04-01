@@ -150,6 +150,41 @@ main {
     font-family: "Bebas Neue";
     margin-top: 15px;
 }
+/* Estilos para a imagem e o texto lado a lado */
+.ImageAndText {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para a imagem */
+.ImageAndText img {
+    width: 200px; /* Ajuste conforme necessário */
+    height: auto;
+    border-radius: 50%; /* Isso arredonda a imagem */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+    text-align: justify; /* Justifica o texto */
+}
+
+/* Estilos para o texto ao lado da imagem */
+.TextBesideImage {
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-top: 35px; /* Espaçamento superior */
+    
+}
+
+
+.TextBesideImage h2 {
+    font-size: 22px; /* Ajuste conforme necessário */
+    margin-bottom: 5px; /* Espaçamento inferior */
+}
+
+.TextBesideImage p {
+    font-size: 16px; /* Ajuste conforme necessário */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    font-family:inherit;
+}
+
+
 ul li {
     padding-top: 10px; /* Adiciona espaço acima de cada item da lista */
     padding-bottom: 17px; /* Adiciona espaço abaixo de cada item da lista */
@@ -191,7 +226,7 @@ label {
     position: fixed;
     top: 10px;
     right: 10px;
-    color: rgba(110, 110, 110, 0.9);
+    color: rgba(119, 119, 119, 0.9);
     z-index: 1000;
 }
 
@@ -340,10 +375,15 @@ footer {
     }
 
     #logo img {
-        width: 50px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         margin: 20px 0px 0px 0px;
-        margin-left:30px;
+        margin-left:40px;
+    }
+    .TextBesideImage p {
+        font-size: 16px; /* Ajuste conforme necessário */
+        margin-bottom: 40px; /* Espaçamento inferior */
+        font-family:inherit;
     }
 
     nav ul {
@@ -379,6 +419,12 @@ footer {
         width: 100%;
         height: 138px;
         margin-bottom: 80px;
+    }
+    /* Estilos para o texto ao lado da imagem */
+    .TextBesideImage p {
+        font-size: 16px; /* Ajuste conforme necessário */
+        margin-bottom: 80px; /* Espaçamento inferior */
+        font-family:inherit;
     }
 
     /* Cabeçalho */
