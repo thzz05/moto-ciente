@@ -229,6 +229,12 @@ section {
     font-family: monospace;
 
 }
+form {
+    background-color:var(--cinzaTexto);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: rgb(108, 101, 101) 0px 3px 8px;
+  }
 
 main {
     background: url(img/banner.jpg);
@@ -254,34 +260,41 @@ main {
 
 /* Estilos para a imagem */
 
-.ImageAndText img {
+.imagem-sobre img {
     justify-content: center;
-    border-radius: 55%;
+    border-radius: 50%;
     /* Isso arredonda a imagem */
-    margin-top: 33px;
+    width: 130px;
+    height: auto;
+    margin: 0 30px;
+    margin-left: -0.8px;
+    margin-top: 30px;
 }
 
 /* Estilos para o texto ao lado da imagem */
-.TextBesideImage {
-    margin-top: 25px;
+.sobre-mim{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
     /* Espaçamento superior */
 
 }
 
 
-.TextBesideImage h2 {
-    font-size: 22px;
-    /* Ajuste conforme necessário */
-    margin-bottom: 5px;
-    /* Espaçamento inferior */
+
+.texto-sobre h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    
+    
+    /* Ajuste conforme necessário */ 
 }
 
-.TextBesideImage p {
-    font-size: 16px;
-    /* Ajuste conforme necessário */
-    margin-bottom: 20px;
-    /* Espaçamento inferior */
-    font-family: inherit;
+.texto-sobre p {
+    font-size: 1.1em;
+    font-family:serif;
+    width: 260px;
+    margin-left: -22px;
 }
 
 
@@ -385,6 +398,40 @@ footer {
     .button {
         margin: 5px 0 0 250px;
     }
+    /* Estilos para a imagem */
+
+.imagem-sobre img {
+    justify-content: center;
+    border-radius: 50%;
+    /* Isso arredonda a imagem */
+    width: 130px;
+    height: auto;
+    margin: 0 30px;
+}
+
+/* Estilos para o texto ao lado da imagem */
+.sobre-mim{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    /* Espaçamento superior */
+
+}
+
+
+
+.texto-sobre h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    
+    /* Ajuste conforme necessário */ 
+}
+
+.texto-sobre p {
+    font-size: 1em;
+    font-family: inherit;
+    width: 400px;
+}
 
     /* Layout */
 
