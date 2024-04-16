@@ -106,6 +106,27 @@ section {
 .Card button:hover {
     background-color: #6f6f6f;
 }
+/* estilo pro input */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  /* compatibiliza o tamanho das caixas do box */
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #2e2e2e;
+  border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color:#bbbbbb;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
 
 .Button {
@@ -144,7 +165,7 @@ section {
 .conteudo {
     display: flex;
     justify-content: center;
-    margin-top: -50px;
+    margin-top: 90px;
 }
 
 .conteudo img {
@@ -233,7 +254,14 @@ form {
     background-color:var(--cinzaTexto);
     padding: 20px;
     border-radius: 50px;
-    box-shadow: rgb(108, 101, 101) 0px 3px 8px;
+    box-shadow: rgb(156, 156, 156) 0px 3px 8px;
+    margin-top: -220px;
+  }
+  .Container9 h2{
+    margin-bottom: 250px;
+    font-size:4vh;
+   
+    
   }
 
 main {
@@ -342,7 +370,7 @@ label {
     position: fixed;
     top: 10px;
     right: 10px;
-    color: rgba(119, 119, 119, 0.9);
+    color: rgba(255, 255, 255, 0.9);
     z-index: 1000;
 }
 
@@ -417,9 +445,19 @@ footer {
     /* Espaçamento superior */
 
 }
-
-
-
+/* form */
+form {
+    background-color:var(--cinzaLayout);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: rgb(156, 156, 156) 0px 3px 8px;
+    margin-top: -220px;
+  }
+  .Container9 h2{
+    margin-bottom: 250px;
+    font-size:7vh;
+    
+  }
 .texto-sobre h2 {
     font-size: 1.2em;
     margin-bottom: 5px;
@@ -479,13 +517,13 @@ footer {
 .conteudo {
     display: flex;
     justify-content: center;
-    margin-top: -85px;
+    margin-top: -135px;
 }
 
 .conteudo img {
     width: 300px;
     height: auto;
-    border-radius: 25px;
+    border-radius: 29px;
 }
 
 .conteudo-texto {
@@ -842,11 +880,6 @@ header {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-    }
-
-    #fundo1 {
-
-        display: block;
     }
 
     .button {
