@@ -1015,11 +1015,31 @@ header {
 
         justify-content: space-between;
     }
+    .MiniBorda1  {
+        display: flex;
+        margin-top: auto;
+        max-width: 100%;
+        background-color: #999999;
+        margin-bottom: 200px;
+    }
     .conteudo-texto {
         display: flex;
         flex-direction: column;
         justify-content: center;
        
+    }
+    .texto-sobre p {
+        font-size: 1.3em;
+        font-family: inherit;
+        width: 490px;
+        margin-top: -20px;
+    }
+    .texto-sobre h2 {
+        font-size: 1.3em;
+        font-family: inherit;
+        width: 490px;
+        margin-top: -30px;
+        margin-bottom: 20px;
     }
     
     .conteudo-texto h2 {
@@ -1074,14 +1094,14 @@ header {
 
     .conteudo-texto h2 {
         display: flex;
-        color: #030303;
+        color: #000000;
         text-align: left;
         width: 900px;
-        margin-left: -170px;
+        margin-left: 200px;
         font-family: unset;
         font-size: 22px;
         margin-top: -200px;
-        margin-right: 100px;
+        
     }
 
     .Flex {
@@ -1096,13 +1116,12 @@ header {
         background-color: #000000;
         transition: .5s;
         color: rgb(255, 255, 255);
-        border: none;
         border-radius: 19px;
         padding: 10px 30px;
         font-size: 17px;
         cursor: pointer;
         text-decoration: none;
-        margin-left:5px;
+        
     }
 
     .button:hover {
