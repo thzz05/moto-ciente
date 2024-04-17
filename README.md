@@ -4,7 +4,6 @@
 
 
 
-
 # acidente-de-moto
 este repositorio hospeda o projeto do site acidentedemoto.com
 ## autor
