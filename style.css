@@ -85,48 +85,6 @@ section {
    width: 150px;
    margin-left: 110px;
 }
-
-/* Estilos para o Card */
-.Card {
-    margin-top: 30px;
-    width: 338px;
-    height: 550px;
-    background-color: #e8e8e8;
-    border: 2px solid var(--cinzaTexto);
-    border-radius: 30px;
-    text-align: center;
-    margin-left: 3px;
-}
-
-.Card img {
-    border-radius: 25px 25px 0px 0px;
-    width: 330px;
-    height: 320px;
-    margin-left: -0.2vh;
-    margin-top: 0.2vh;
-}
-
-.Card p {
-    padding: 10px 30px 50px 15px;
-    text-align: center;
-    color: var(--cinzaLayout);
-}
-
-/* Estilos para o botão no Card */
-.Card button {
-    background-color: #989898;
-    color: white;
-    border: none;
-    border-radius: 19px;
-    padding: 10px 20px;
-    font-size: 17px;
-    cursor: pointer;
-
-}
-
-.Card button:hover {
-    background-color: #6f6f6f;
-}
 /* estilo pro input */
 input[type="text"],
 input[type="email"],
@@ -153,21 +111,138 @@ input[type="reset"] {
   cursor: pointer;
 }
 
-
-
-.Button {
-    text-decoration: none;
-    background-color: var(--cinzaTexto);
-    padding: 2px 30px;
-    border-radius: 25px;
-    font-size: 1.2em;
-    font-weight: 700;
-}
 .ContainerSobre {
     margin: 0 auto;
     padding: 50px 15px 50px 15px;
 }
+.cards-container {
+    display: flex;
+    justify-content: space-between; /* Distribui os cards igualmente */
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha se necessário */
+    margin-top: 200px;
+}
+.card-image {
+    max-width: 200px;
+    height: auto;
+    margin-left: -60px;
+    border-radius: 10px;
+}
+.card p{
+    margin-left: -109px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    width: 300px;
+    
+}
+.card h3{
+    margin-left: -100px;
+    margin-top: -100px;
+    width: 270px;
+}
+.card {
+    min-height: 10px; /* Defina a altura mínima conforme necessário */
+    /* Outras propriedades CSS para o card */
+    width: calc(90% - 20px); /* Define a largura do card */
+    margin-bottom: 80px; /* Adiciona margem na parte inferior dos cards */
+    padding: 120px; /* Adiciona espaço interno nos cards */
+    background-color: #dadada; /* Cor de fundo do card */
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Adiciona sombra ao card */
+    margin-left: 30px;
+}
+.card1 {
+    min-height: 10px; /* Defina a altura mínima conforme necessário */
+    width: calc(90% - 20px); /* Define a largura do card */
+    margin-bottom: 80px; /* Adiciona margem na parte inferior dos cards */
+    padding: 120px; /* Adiciona espaço interno nos cards */
+    background-color: #dadada; /* Cor de fundo do card */
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Adiciona sombra ao card */
+    margin-left: 30px;
+}
+.card1 h3{
+    margin-left: -100px;
+    margin-top: -100px;
+    width: 210px;
+}
+.card-image1 {
+    max-width: 200px;
+    height: auto;
+    margin-left: -60px;
+    border-radius: 10px;
+}
+.card1 p{
+    margin-left: -107px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    width: 300px;
+    
+}
+.card2 {
+    min-height: 10px; /* Defina a altura mínima conforme necessário */
+    width: calc(90% - 20px); /* Define a largura do card */
+    margin-bottom: 80px; /* Adiciona margem na parte inferior dos cards */
+    padding: 120px; /* Adiciona espaço interno nos cards */
+    background-color: #dadada; /* Cor de fundo do card */
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Adiciona sombra ao card */
+    margin-left: 30px;
+}
+.card2 h3{
+    margin-left: -100px;
+    margin-top: -100px;
+}
+.card2 {
+    min-height: 330px; /* Defina a altura mínima conforme necessário */
+    width: calc(90% - 20px); /* Define a largura do card */
+    margin-bottom: 80px; /* Adiciona margem na parte inferior dos cards */
+    padding: 120px; /* Adiciona espaço interno nos cards */
+    background-color: #dadada; /* Cor de fundo do card */
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Adiciona sombra ao card */
+}
+.card-image2 {
+    max-width: 200px;
+    height: auto;
+    margin-left: -60px;
+    border-radius: 10px;
+}
+.card2 p{
+    margin-left: -105px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    width: 300px;
+}
+.card3 {
+    min-height: 10px; /* Defina a altura mínima conforme necessário */
+    width: calc(90% - 20px); /* Define a largura do card */
+    margin-bottom: 80px; /* Adiciona margem na parte inferior dos cards */
+    padding: 120px; /* Adiciona espaço interno nos cards */
+    background-color: #dadada; /* Cor de fundo do card */
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Adiciona sombra ao card */
+    margin-left: 30px;
+}
+.card-image3 {
+    max-width: 200px;
+    height: auto;
+    margin-left: -60px;
+    border-radius: 10px;
+    margin-top: -60px;
+    margin-left: -90px;
+}
+.card3 p{
+    margin-left: -107px;
+    margin-top: 250px;
+    font-size: 1.1em;
+    width: 300px;
+}
 
+.card3 h3{
+    margin-left: -100px;
+    margin-top: -500px;
+    width: 250px;
+}
 .Flex {
     flex-direction: column;
 }
@@ -206,17 +281,6 @@ input[type="reset"] {
     margin-top: 95px;
 }
 
-.conteudo img {
-    width: 300px;
-    height: auto;
-    border-radius: 2px;
-}
-
-
-.conteudo-texto {
-    font-size: 1.2em;
-    
-}
 #social {
     margin-bottom: 25px;
 }
@@ -469,6 +533,21 @@ footer {
         margin-right:20px;
         
     }
+    .cards-container {
+        display: flex;
+        justify-content: space-between; /* Distribui os cards igualmente */
+        flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha se necessário */
+        margin-top: 100px;
+    }
+    
+    .card {
+        width: calc(80% - 20px); /* Define a largura do card */
+        margin-bottom: 80px; /* Adiciona margem na parte inferior dos cards */
+        padding: 120px; /* Adiciona espaço interno nos cards */
+        background-color: #dadada; /* Cor de fundo do card */
+        border-radius: 20px; /* Adiciona bordas arredondadas */
+        box-shadow: 0 0 10px rgb(0, 0, 0); /* Adiciona sombra ao card */
+    }
    
     .conteudo-texto img{
         width: 200px;
@@ -698,6 +777,7 @@ header {
         margin-left: 280px;
         margin-top: 5px;
      }
+     
      .conteudo-texto1 h2{
         font-size: 1.2em;
         margin-left: 300px;
@@ -709,6 +789,21 @@ header {
     }
     #textoSobre p{
         font-size: 1.3em;
+    }
+    .cards-container {
+        display: flex;
+        justify-content: space-between; /* Distribui os cards igualmente */
+        flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha se necessário */
+        margin-top: 250px;
+    }
+    
+    .card {
+        width: calc(80% - 20px); /* Define a largura do card */
+        margin-bottom: 80px; /* Adiciona margem na parte inferior dos cards */
+        padding: 120px; /* Adiciona espaço interno nos cards */
+        background-color: #dadada; /* Cor de fundo do card */
+        border-radius: 20px; /* Adiciona bordas arredondadas */
+        box-shadow: 0 0 10px rgb(0, 0, 0); /* Adiciona sombra ao card */
     }
     
     form {
@@ -795,14 +890,6 @@ header {
         max-width: 100%;
         height: 100px;
         background-color: #000000;
-    }
-
-    .Card img {
-        border-radius: 25px 25px 0px 0px;
-        width: 330px;
-        height: 320px;
-        margin-left: -0.1vh;
-        margin-top: -0.1vh;
     }
 
     .Banner .Container h1 {
@@ -1034,6 +1121,143 @@ header {
         justify-content: center;
        
     }
+    .cards-container {
+        display: flex;
+        justify-content: space-between; /* Distribui os cards igualmente */
+        flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha se necessário */
+        margin-top: 2px;
+    }
+    .card-image {
+        max-width: 240px;
+        height: auto;
+        margin-left: -100px;
+        border-radius: 10px;
+    }
+    .card p{
+        margin-left: 180px;
+        margin-top: -290px;
+        font-size: 1.3em;
+        width: auto;
+    }
+    .card h3{
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+    .card {
+        min-height: 400px; /* Defina a altura mínima conforme necessário */
+        /* Outras propriedades CSS para o card */
+        width: calc(80% - 20px); /* Define a largura do card */
+        margin-bottom: 80px; /* Adiciona margem na parte inferior dos cards */
+        padding: 120px; /* Adiciona espaço interno nos cards */
+        background-color: #dadada; /* Cor de fundo do card */
+        border-radius: 20px; /* Adiciona bordas arredondadas */
+        box-shadow: 0 0 10px rgb(0, 0, 0); /* Adiciona sombra ao card */
+    }
+    .youtube-button {
+        
+        bottom: 20px;
+        transform: translateX(-50%);
+        padding: 10px 20px;
+        background-color: #ff0000;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+        margin-left: 200px;
+        margin-top: 390px;
+        
+    }
+    
+    .card1 {
+        min-height: 380px; /* Defina a altura mínima conforme necessário */
+        width: calc(80% - 20px); /* Define a largura do card */
+        margin-bottom: 80px; /* Adiciona margem na parte inferior dos cards */
+        padding: 120px; /* Adiciona espaço interno nos cards */
+        background-color: #dadada; /* Cor de fundo do card */
+        border-radius: 20px; /* Adiciona bordas arredondadas */
+        box-shadow: 0 0 10px rgb(0, 0, 0); /* Adiciona sombra ao card */
+    }
+    .card1 h3{
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+    .card-image1 {
+        max-width: 410px;
+        height: auto;
+        margin-left: -100px;
+        border-radius: 10px;
+    }
+    .card1 p{
+        margin-left: 320px;
+        margin-top: -260px;
+        font-size: 1.3em;
+        width: auto;
+    }
+    .card2 {
+        width: calc(80% - 20px); /* Define a largura do card */
+        margin-bottom: 80px; /* Adiciona margem na parte inferior dos cards */
+        padding: 120px; /* Adiciona espaço interno nos cards */
+        background-color: #dadada; /* Cor de fundo do card */
+        border-radius: 20px; /* Adiciona bordas arredondadas */
+        box-shadow: 0 0 10px rgb(0, 0, 0); /* Adiciona sombra ao card */
+    }
+    .card2 h3{
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+    .card2 {
+        min-height: 330px; /* Defina a altura mínima conforme necessário */
+        width: calc(80% - 20px); /* Define a largura do card */
+        margin-bottom: 80px; /* Adiciona margem na parte inferior dos cards */
+        padding: 120px; /* Adiciona espaço interno nos cards */
+        background-color: #dadada; /* Cor de fundo do card */
+        border-radius: 20px; /* Adiciona bordas arredondadas */
+        box-shadow: 0 0 10px rgb(0, 0, 0); /* Adiciona sombra ao card */
+    }
+    .card-image2 {
+        max-width: 450px;
+        height: auto;
+        margin-left: -100px;
+        border-radius: 10px;
+    }
+    .card2 p{
+        margin-left: 370px;
+        margin-top: -230px;
+        font-size: 1.3em;
+        width: auto;
+    }
+    .card3 {
+        min-height: 330px; /* Defina a altura mínima conforme necessário */
+        width: calc(80% - 20px); /* Define a largura do card */
+        margin-bottom: 80px; /* Adiciona margem na parte inferior dos cards */
+        padding: 120px; /* Adiciona espaço interno nos cards */
+        background-color: #dadada; /* Cor de fundo do card */
+        border-radius: 20px; /* Adiciona bordas arredondadas */
+        box-shadow: 0 0 10px rgb(0, 0, 0); /* Adiciona sombra ao card */
+    }
+    .card-image3 {
+        max-width: 340px;
+        height: auto;
+        margin-left: -100px;
+        border-radius: 10px;
+        margin-top: -70px;
+    }
+    .card3 p{
+        margin-left: 300px;
+        margin-top: 10px;
+        font-size: 1.3em;
+        width: auto;
+    }
+    
+    .card3 h3{
+        margin-left: -99px;
+        margin-top: -280px;
+    }
+ 
+    
     .FlexSobre {
         flex-direction: row;
         justify-content:space-around;
@@ -1131,6 +1355,8 @@ header {
         font-size: 17px;
         cursor: pointer;
         text-decoration: none;
+        margin-left:370px;
+        margin-top: 0px;
         
     }
 
