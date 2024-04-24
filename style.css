@@ -1464,6 +1464,7 @@ header {
         font-size: 2em;
     }
 }
+
 /* PCs, notebooks ou Tv Full HD + >>>> */
 @media (min-width: 1400px)
 {
